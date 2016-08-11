@@ -7,4 +7,4 @@ clean:
 	rm hello
 
 test:
-	@./hello | grep status
+	@./hello
