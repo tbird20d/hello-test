@@ -17,4 +17,4 @@ distclean: clean
 
 dist: clean
 	ln -sf hello-test ../hello-test-${VERSION}
-	tar -czvf ../${TARFILE} -C .. hello-test-${VERSION}/
+	tar -h -czvf ../${TARFILE} -C .. --exclude=*/.git* hello-test-${VERSION}/
