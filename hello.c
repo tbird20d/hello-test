@@ -81,9 +81,8 @@ int main(int argc, char **argv)
 	printf("Test result: ");
 	if (failtest) {
 		printf("FAIL\n");
-		return -1;
 	} else {
 		printf("SUCCESS\n");
-		return 0;
 	}
+	return 0;
 }
