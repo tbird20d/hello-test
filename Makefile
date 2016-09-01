@@ -1,6 +1,6 @@
 all: hello
 
-VERSION=1.0
+VERSION=1.1
 TARFILE=hello-test-${VERSION}.tgz
 
 hello: hello.c
